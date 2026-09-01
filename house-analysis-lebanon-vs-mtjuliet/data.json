@@ -1,0 +1,312 @@
+{
+  "generated_utc": "2026-09-01T00:02:59Z",
+  "premise_corrections": [
+    {
+      "item": "324 Aspen Aly city",
+      "user_said": "Lebanon TN 37087",
+      "verified": "Mount Juliet TN 37122 (Benders Cove, Meritage Homes)",
+      "confidence": "high"
+    },
+    {
+      "item": "324 Aspen Aly price",
+      "user_said": "$470,000",
+      "verified": "$499,950 builder page (Redfin cached $523,450, appears pre-cut)",
+      "confidence": "medium-high"
+    },
+    {
+      "item": "324 Aspen Aly sqft",
+      "user_said": "~2,150",
+      "verified": "2,198 (Meritage 'Palmetto')",
+      "confidence": "high"
+    },
+    {
+      "item": "256 Limestone Way price",
+      "user_said": "not given",
+      "verified": "$475,995 builder / $469,995 MLS, 2,722 sqft (Ashton Woods 'Bartlett')",
+      "confidence": "high"
+    },
+    {
+      "item": "schools differ",
+      "user_said": "implied differentiator",
+      "verified": "IDENTICAL triad, confirmed address-level via official WCS lookup",
+      "confidence": "high"
+    }
+  ],
+  "properties": {
+    "aspen": {
+      "address": "324 Aspen Aly, Mount Juliet, TN 37122",
+      "subdivision": "Benders Cove - Premier Series",
+      "builder": "Meritage Homes",
+      "plan": "Palmetto",
+      "price": 499950,
+      "price_alt_cached": 523450,
+      "sqft": 2198,
+      "beds": 4,
+      "baths": 3,
+      "psf": 227.46,
+      "hoa_mo": 145,
+      "tax_rate_per_100": 1.4457,
+      "tax_yr": 1807,
+      "mls": "3279281",
+      "includes": [
+        "refrigerator",
+        "washer/dryer",
+        "blinds",
+        "sodded yard"
+      ],
+      "geocode": [
+        36.238047,
+        -86.491969
+      ],
+      "status": "move-in ready"
+    },
+    "limestone": {
+      "address": "256 Limestone Way, Lebanon, TN 37087",
+      "subdivision": "Cades Bluff",
+      "builder": "Ashton Woods",
+      "plan": "Bartlett",
+      "price": 475995,
+      "price_alt_mls": 469995,
+      "sqft": 2722,
+      "beds": 5,
+      "baths": 3,
+      "psf": 174.87,
+      "hoa_mo": 50,
+      "tax_rate_per_100": 1.5707,
+      "tax_yr": 1869,
+      "mls": "3276727",
+      "includes": [],
+      "geocode": [
+        36.238793,
+        -86.439632
+      ],
+      "status": "available Sep 2026",
+      "usda_eligible": true
+    }
+  },
+  "schools": {
+    "source": "Wilson County Schools InfoFinder i (official address-level lookup), clientId WCS5MDPRFWQV",
+    "identical_for_both": true,
+    "district": "Wilson County Schools K-12",
+    "lssd": false,
+    "triad": [
+      {
+        "level": "elementary",
+        "name": "West Elementary",
+        "utilization_pct": 59,
+        "math_prof": 64,
+        "reading_prof": 60,
+        "note": "relieved by LaGuardo Elementary opening Aug 2025; top 10% of TN schools (soft)"
+      },
+      {
+        "level": "middle",
+        "name": "West Wilson Middle",
+        "utilization_pct": 92,
+        "math_prof": 49,
+        "reading_prof": 49,
+        "note": "post-tornado replacement, core capacity 1,500, WCS projected 1,560 by 2026 = over capacity on opening"
+      },
+      {
+        "level": "high",
+        "name": "Mt. Juliet High",
+        "utilization_pct": 87,
+        "math_prof": 42,
+        "reading_prof": 57,
+        "note": "87% vs district's 90% 'plan a new school' trigger; no new HS approved/funded"
+      }
+    ],
+    "district_grad_rate": 98.5
+  },
+  "rezoning": {
+    "school_rezoning_verdict": "SYMMETRIC - identical triad means no rezoning outcome can favor either home",
+    "board_actions_last_5y": 4,
+    "cadence": "~annual; every new school opening triggered a rezoning",
+    "not_in_approved_2026_27": true,
+    "pressure_point": "West Wilson Middle at ~92%",
+    "grandfathering": "discretionary, not policy; terminating-grade students + siblings typically offered a choice; whole subdivisions moved together",
+    "land_use": {
+      "aspen": {
+        "rating": "MEDIUM",
+        "drivers": [
+          "Lebanon Rd widening 2->5 lanes",
+          "Golden Bear Place 660 homes mixed-use",
+          "convenience store/fuel rezoning at 10000 Lebanon Rd",
+          "Silver Springs +92 homes"
+        ]
+      },
+      "limestone": {
+        "rating": "HIGH",
+        "drivers": [
+          "254-unit apartment complex already BUILT adjacent (Reunion Township @ 109, 2024)",
+          "~546,000 sqft warehouse park approved on Hwy 109 (Lebanon Commerce Center)",
+          "JAMS rezoning C-3->C-2 at 5780 Hwy 109 N pending",
+          "Hall Enrichment R-1->C-1 at 1635 Hwy 109 N",
+          "ICE detention facility proposed Feb 2026 then withdrawn"
+        ]
+      }
+    }
+  },
+  "financing": {
+    "market_30yr_fixed": 6.66,
+    "market_rate_source": "Freddie Mac PMMS week of 2026-08-27",
+    "aspen_quote": {
+      "rate": 4.99,
+      "apr": 5.093,
+      "permanent": "UNCONFIRMED - Meritage FAQ describes buydowns as temporary",
+      "expires": "Oct 31"
+    },
+    "limestone_quote": {
+      "structure": "2-1 buydown published by Ashton Woods",
+      "yr1": 3.99,
+      "yr2": 4.99,
+      "yr3_30": 5.99,
+      "implication": "a quoted 4.99% is likely the YEAR-2 step, not a 30-year rate"
+    },
+    "current_alt_promo": "Ashton Woods Cades Bluff banner: rate as low as 3.25% + $20k design options"
+  },
+  "monthly_scenarios": [
+    {
+      "scenario": "Both 4.99% (as quoted)",
+      "aspen": 2657,
+      "limestone": 2464,
+      "delta_aspen_minus_lime": 193
+    },
+    {
+      "scenario": "Aspen 4.99% Lime 5.99% (likely)",
+      "aspen": 2657,
+      "limestone": 2703,
+      "delta_aspen_minus_lime": -46
+    },
+    {
+      "scenario": "Both at market 6.66%",
+      "aspen": 3082,
+      "limestone": 2870,
+      "delta_aspen_minus_lime": 213
+    }
+  ],
+  "buydown_schedule": [
+    {
+      "period": "Yr 1",
+      "pi": 1816,
+      "all_in": 2238
+    },
+    {
+      "period": "Yr 2",
+      "pi": 2042,
+      "all_in": 2464
+    },
+    {
+      "period": "Yr 3-30",
+      "pi": 2281,
+      "all_in": 2703
+    }
+  ],
+  "negotiation": {
+    "limestone_same_plan_comps": [
+      {
+        "addr": "241 Limestone Way",
+        "price": 444995,
+        "status": "pending after price cut"
+      },
+      {
+        "addr": "251 Limestone Way",
+        "price": 489995,
+        "status": "active, cut from $535,324"
+      },
+      {
+        "addr": "259 Limestone Way",
+        "price": 501865,
+        "status": "active"
+      }
+    ],
+    "limestone_above_pending_comp": 31000,
+    "aspen_same_plan_comp": {
+      "addr": "317 Aspen Aly",
+      "price": 516660
+    },
+    "aspen_below_twin": 16710
+  },
+  "market": {
+    "verdict": "Nashville = 2nd strongest buyer's market nationally, 129% more sellers than buyers (Redfin, Jun 2026)",
+    "price_cuts_pct": 17.7,
+    "avg_cut_pct": 3.4,
+    "contract_cancellations_pct": 13.1,
+    "wilson_10yr_appreciation_pct": 73.5,
+    "wilson_cagr_pct": 5.7,
+    "rate_shock_cagr_2022_2026_pct": 2.9,
+    "still_below_jul2024_peak_pct": 2.6,
+    "history": [
+      {
+        "year": 2016,
+        "median_list": 329900
+      },
+      {
+        "year": 2017,
+        "median_list": 379900
+      },
+      {
+        "year": 2018,
+        "median_list": 389900
+      },
+      {
+        "year": 2019,
+        "median_list": 387843
+      },
+      {
+        "year": 2020,
+        "median_list": 403591
+      },
+      {
+        "year": 2021,
+        "median_list": 442900
+      },
+      {
+        "year": 2022,
+        "median_list": 511733
+      },
+      {
+        "year": 2023,
+        "median_list": 564990
+      },
+      {
+        "year": 2024,
+        "median_list": 587900
+      },
+      {
+        "year": 2025,
+        "median_list": 544740
+      },
+      {
+        "year": 2026,
+        "median_list": 572400
+      }
+    ],
+    "hold_guidance": "underwrite 7+ years; a 3-5 year exit likely at or below purchase price after costs"
+  },
+  "hazards": {
+    "flood_zone_both": "X (minimal hazard) - approximate coords, confirm per parcel",
+    "tornado": "6.1 tornadoes/100 sq mi; 2020 EF3 killed 3 in Wilson County; equal for both",
+    "karst_sinkhole": "Lebanon/Ridley Limestone crop out in areas of intensive sinkhole development; both homes slab-on-grade; request lot geotech report"
+  },
+  "commute": {
+    "aspen": {
+      "miles_to_downtown_nashville": 19,
+      "drive_min": "20-30",
+      "wego_star_min": 34
+    },
+    "limestone": {
+      "miles_to_downtown_nashville": 31,
+      "drive_min": "30-40",
+      "wego_star_min": "50-60"
+    },
+    "delta": "Mt. Juliet ~11 miles / 10-16 min closer each way"
+  },
+  "open_items": [
+    "Get a LOAN ESTIMATE from each builder's lender - read the note rate and look for a Temporary Buydown Agreement addendum. Highest-dollar unknown.",
+    "Confirm whether 256 Limestone Way is inside Lebanon city limits (~$482/yr tax swing). Wilson County Assessor 615-444-8661.",
+    "Confirm the transactable price on both - each has two conflicting published figures and active incentives.",
+    "Request the lot-specific geotechnical/soils report from each builder (karst).",
+    "Confirm LaGuardo Elementary wastewater permit resolved (pump-and-haul as of Jul 2026) - relevant only if elementary is later redrawn.",
+    "Ask each HOA about capital contribution at closing and whether the builder still controls the board."
+  ]
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>324 Aspen Aly vs 256 Limestone Way — Analysis</title><style>
+:root{--bg:#0d1117;--pn:#161b22;--bd:#30363d;--tx:#e6edf3;--mu:#8b949e;--ac:#58a6ff}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--tx);
+font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,sans-serif}
+.w{max-width:960px;margin:0 auto;padding:44px 22px 90px}
+h1{font-size:1.9rem;letter-spacing:-.02em;margin:0 0 6px}
+h2{font-size:1.35rem;margin:40px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--bd)}
+h3{font-size:1.05rem;margin:26px 0 8px} h4{color:var(--mu);margin:18px 0 6px}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.9rem}
+th,td{padding:8px 10px;border-bottom:1px solid var(--bd);text-align:left;vertical-align:top}
+th{color:var(--mu);font-size:.76rem;text-transform:uppercase;letter-spacing:.05em}
+code{background:#1f2430;padding:.1em .36em;border-radius:4px;font:13px ui-monospace,monospace}
+blockquote{border-left:3px solid var(--ac);background:#111823;margin:18px 0;padding:12px 18px;border-radius:0 6px 6px 0}
+img{width:100%;max-width:760px;display:block;margin:16px 0;background:var(--pn);
+border:1px solid var(--bd);border-radius:8px}
+pre.dia{background:var(--pn);border:1px solid var(--bd);border-radius:8px;padding:14px;
+overflow-x:auto;color:var(--mu);font:12px ui-monospace,monospace;line-height:1.5}
+hr{border:0;border-top:1px solid var(--bd);margin:34px 0}
+a{color:var(--ac)} li{margin:4px 0} p{margin:10px 0}
+.note{background:#1a1214;border-left:3px solid #f85149;padding:12px 18px;border-radius:0 6px 6px 0;margin:18px 0}
+</style></head><body><div class="w">
+<div class="note"><strong>Note:</strong> diagrams appear as source text here. View
+<code>README.md</code> on GitHub for rendered Mermaid diagrams.</div>
+<h1>324 Aspen Aly vs 256 Limestone Way — End-to-End Analysis</h1>
+<p>_Generated 2026-08-31. Research by four parallel agents (listings/comps, schools, rezoning, market/hazard). Every figure is sourced; confidence is labelled. See <a href="./data.json"><code>data.json</code></a> for machine-readable output and <a href="./SOURCES.md"><code>SOURCES.md</code></a> for the full source list._</p>
+<hr>
+<h2>TL;DR</h2>
+<p><strong>Schools are not a differentiator. They are literally the same three schools.</strong> That was your primary decision criterion, and it is settled by the school district's own address-level lookup. The decision reduces to money, land-use risk, and commute.</p>
+<p><strong>The one thing that decides this purchase is a document you don't have yet: a Loan Estimate from each builder's lender.</strong> Your quoted 4.99% is a builder incentive, not a market rate (market is 6.66%), and Ashton Woods publishes a <strong>2-1 buydown</strong> whose year-2 step is exactly 4.99% — meaning Limestone Way's real long-run rate is likely <strong>5.99%</strong>. That single fact flips the answer.</p>
+<table>
+<tr><th></th><th>324 Aspen Aly</th><th>256 Limestone Way</th></tr>
+<tr><td>City</td><td><strong>Mount Juliet 37122</strong> (not Lebanon)</td><td>Lebanon 37087</td></tr>
+<tr><td>Price</td><td><strong>$499,950</strong> (not $470,000)</td><td><strong>$475,995</strong></td></tr>
+<tr><td>Size</td><td>2,198 sqft, 4bd/3ba</td><td><strong>2,722 sqft, 5bd/3ba</strong></td></tr>
+<tr><td>$/sqft</td><td>$227.46</td><td><strong>$174.87</strong></td></tr>
+<tr><td>HOA</td><td>$145/mo</td><td><strong>$50/mo</strong></td></tr>
+<tr><td>Schools</td><td>West Elem → West Wilson Middle → Mt. Juliet High</td><td><strong>identical</strong></td></tr>
+<tr><td>Land-use risk</td><td>MEDIUM</td><td><strong>HIGH</strong></td></tr>
+<tr><td>Commute to Nashville</td><td><strong>19 mi</strong></td><td>31 mi</td></tr>
+<tr><td>Appliances</td><td><strong>fridge + washer/dryer + blinds included</strong></td><td>none</td></tr>
+<tr><td>Likely 30-yr rate</td><td>4.99% (unconfirmed)</td><td><strong>5.99%</strong> (2-1 buydown)</td></tr>
+</table>
+<hr>
+<h2>1. Your premises were wrong in four places</h2>
+<p>These corrections change the math, so they come first.</p>
+<table>
+<tr><th>What you said</th><th>What the evidence shows</th><th>Confidence</th></tr>
+<tr><td>Both in Lebanon 37087</td><td><strong>324 Aspen Aly is in Mount Juliet 37122</strong> (Benders Cove, Meritage Homes). Different city, different municipal tax rate, different commute.</td><td>High</td></tr>
+<tr><td>Aspen Aly = $470,000</td><td><strong>$499,950</strong> on Meritage's own page (Redfin cached $523,450, so it appears price-reduced). $470k is below Meritage's published Premier Series floor of $473,990.</td><td>Medium-High</td></tr>
+<tr><td>Aspen Aly ≈ 2,150 sqft</td><td><strong>2,198 sqft</strong> ("Palmetto" plan)</td><td>High</td></tr>
+<tr><td>Limestone price unknown</td><td><strong>$475,995</strong> builder / <strong>$469,995</strong> MLS, <strong>2,722 sqft</strong> ("Bartlett" plan), Ashton Woods, MLS 3276727</td><td>High</td></tr>
+</table>
+<p>Any monthly payment you were quoted on a $470,000 Aspen Aly is wrong by ~$30,000 of principal.</p>
+<hr>
+<h2>2. Schools — zero difference, settled by primary source</h2>
+<p>The Schools agent bypassed builder marketing (which is routinely stale) and queried <strong>Wilson County Schools' own address-level attendance lookup</strong> (Transfinder InfoFinder i, district client ID <code>WCS5MDPRFWQV</code>). Both addresses returned <code>exactAddressMatch: true</code>, score 100.</p>
+<pre class="dia">
+flowchart TD
+    A["324 Aspen Aly&lt;br/>Mount Juliet 37122&lt;br/>36.2380, -86.4920"]
+    B["256 Limestone Way&lt;br/>Lebanon 37087&lt;br/>36.2388, -86.4396"]
+    A --> D["WILSON COUNTY SCHOOLS K-12&lt;br/>(NOT Lebanon Special School District)"]
+    B --> D
+    D --> E["West Elementary K-5&lt;br/>~59% utilized"]
+    E --> F["West Wilson Middle 6-8&lt;br/>~92% utilized ← pressure point"]
+    F --> G["Mt. Juliet High 9-12&lt;br/>87% vs 90% trigger"]
+</pre>
+<p>The two homes sit <strong>~2.9 miles apart on the same latitude</strong>. The 37087 vs 37122 split is *postal, not jurisdictional* — the district's own address record even carries Limestone Way as 37122. Both have named district bus stops (Benders Ferry Rd &amp; Moss Creek Blvd; Limestone Way &amp; Emerald Blvd).</p>
+<p><strong>Every proficiency score, growth measure, capacity ratio and rating is identical by construction, because it is the same three buildings.</strong></p>
+<table>
+<tr><th></th><th>West Elementary</th><th>West Wilson Middle</th><th>Mt. Juliet High</th></tr>
+<tr><td>Utilization</td><td>~59%</td><td><strong>~92%</strong></td><td>87%</td></tr>
+<tr><td>Math proficient</td><td>64%</td><td>49%</td><td>42%</td></tr>
+<tr><td>Reading proficient</td><td>60%</td><td>49%</td><td>57%</td></tr>
+<tr><td>Third-party (soft)</td><td>top 10% of TN schools</td><td>41st of 583 TN middle schools, 5-star</td><td>better than 83.3% of TN high schools</td></tr>
+</table>
+<p>District graduation rate <strong>98.5%</strong>; of 23 A–F-eligible WCS schools: 8 A, 8 B, 6 C, 1 D, no F.</p>
+<p>Two corrections logged during research: <strong>jome.com's claim that Benders Cove feeds Mt. Juliet Middle is wrong</strong> (refuted by the official lookup), and an earlier hypothesis that Limestone Way had been rezoned to LaGuardo Elementary is <strong>not supported</strong> — the authoritative lookup returns West Elementary for both.</p>
+<hr>
+<h2>3. School rezoning risk — real, but symmetric</h2>
+<p>Your instinct that rezoning is a live risk is <strong>correct</strong>. Your instinct that it distinguishes these two homes is <strong>not</strong>.</p>
+<p>Wilson County Schools has made <strong>four board-approved boundary changes in five years</strong> — roughly annual — and <strong>every new school opening has triggered one</strong>.</p>
+<pre class="dia">
+timeline
+    title Wilson County Schools boundary changes
+    2020 : Green Hill HS opens - hundreds rezoned OUT of Mt. Juliet HS
+    2022 : Gladeville Elementary to Rutland Elementary
+    2023 : 107 students Rutland to Gladeville, 113 Gladeville to Southside
+    2025 : LaGuardo Elementary opens - West Elem and West Wilson Middle affected
+    2026 : Central Pike Elementary opens - Gladeville, Rutland, Southside redrawn
+</pre>
+<p><strong>Why it cannot favor either home:</strong> both share the identical triad, so no boundary change at West Elementary, West Wilson Middle, or Mt. Juliet High can hit one house and spare the other. WCS moves <strong>whole subdivisions together</strong> by stated policy.</p>
+<p><strong>Where the pressure actually is:</strong></p>
+<li><strong>West Wilson Middle ~92%</strong> — a post-tornado replacement building whose own district finance projection had it at 1,560 students against 1,500 core capacity, i.e. <strong>over capacity on opening</strong>. Leadership publicly called it "at capacity or near capacity" in Oct 2025.</li>
+<li><strong>Mt. Juliet High 87%</strong> against the district's explicit <strong>90% "start planning a new school"</strong> trigger — and there is <strong>no new high school approved, funded, or under construction</strong>. The only funded projects (Watertown Middle, Lakeview) are 2028-29 and on the far side of the county.</li>
+<li><strong>None of the three schools appears in the approved 2026-27 rezonings.</strong> Near-term risk is low; a 3–7 year window is a genuine exposure.</li>
+<p><strong>Uncomfortable irony worth stating plainly:</strong> both subdivisions are still actively building out (~350 homes entitled at Benders Cove, 660 at Golden Bear Place, +92 at Silver Springs; Cades Bluff has 6 active / 7 under contract with phases still releasing). The rezoning risk you're worried about is <strong>being manufactured by the very developments you're choosing between</strong>.</p>
+<p><strong>Grandfathering is not policy.</strong> It's discretionary and case-by-case: terminating-grade students and siblings have typically been *offered* a choice to stay, sometimes requiring an application.</p>
+<hr>
+<h2>4. Land use — this is the real differentiator, and it favors Aspen Aly</h2>
+<p>Once schools cancel out, the risk that actually separates these homes is what gets built <strong>next door</strong>.</p>
+<h3>256 Limestone Way — HIGH risk (Hwy 109 corridor)</h3>
+<p>Hwy 109 is Lebanon's de facto industrial/distribution corridor:</p>
+<li><strong>A 254-unit apartment complex is already built directly adjacent</strong> (Reunion Township @ 109, 550 Old Laguardo Rd W, 27 acres, 2024). Not a proposal — built.</li>
+<li><strong>~546,000 sqft warehouse park approved</strong> on 56 acres between Hwy 109 and Franklin Rd (Lebanon Commerce Center, 3 buildings, Building 1 alone 297,907 sqft with ~40 loading docks). Plats approved June 2025.</li>
+<li><strong>Two live commercial rezonings on Hwy 109 N</strong>: 5780 Hwy 109 N (C-3→C-2, pending on the county agenda 17 Jun 2026); 1635 Hwy 109 N (R-1→C-1).</li>
+<li><strong>An ICE detention facility was proposed on this corridor in Feb 2026</strong> before being withdrawn — evidence the corridor is a live target for institutional siting.</li>
+<li>Lebanon's own mayor is on record objecting: _"I did not want Lebanon to become the distribution center capital of the world… when is enough, enough?"_ — while council keeps approving on split votes.</li>
+<h3>324 Aspen Aly — MEDIUM risk (Lebanon Rd corridor)</h3>
+<p>Commercializing toward <strong>retail and mixed-use residential</strong>, which is materially less value-suppressing than dock-door warehouse: Golden Bear Place (660 homes mixed-use), a convenience store/fuel station rezoning, Silver Springs (+92 homes), and Lebanon Rd widening from 2 to 5 lanes.</p>
+<hr>
+<h2>5. The money</h2>
+<h3>The rate is the whole ballgame</h3>
+<p>Market 30-year fixed is <strong>6.66%</strong> (Freddie Mac PMMS, week of 2026-08-27). A 4.99% quote is ~167 bps below market and <strong>cannot be a standard rate</strong> — it is a builder buydown.</p>
+<table>
+<tr><th>Builder</th><th>Published incentive</th><th>What your "4.99%" probably is</th></tr>
+<tr><td>Meritage (Aspen)</td><td>"as low as 4.99% (5.093% APR)" through Oct 31</td><td>Possibly permanent — but Meritage's own FAQ says a buydown _"does not change the permanent note rate… it simply buys down the rate for the first couple of years."_ <strong>UNCONFIRMED.</strong></td></tr>
+<tr><td>Ashton Woods (Limestone)</td><td><strong>2-1 buydown: 3.99% yr 1 / 4.99% yr 2 / 5.99% yr 3–30</strong></td><td><strong>The year-2 step.</strong> Your real long-run rate is likely <strong>5.99%</strong>.</td></tr>
+</table>
+<p>Ashton Woods' *current* Cades Bluff banner is different again — "as low as 3.25% + $20k in design options" — so the 4.99% you were quoted may already be stale and beatable.</p>
+<h3>Monthly, all-in (20% down, incl. tax + insurance + HOA)</h3>
+<p><img src="./chart-monthly.svg" alt="chart"></p>
+<table>
+<tr><th>Scenario</th><th>Aspen Aly</th><th>Limestone Way</th><th>Winner</th></tr>
+<tr><td>Both 4.99% (as you were told)</td><td>$2,657</td><td><strong>$2,464</strong></td><td>Limestone by <strong>$193/mo</strong></td></tr>
+<tr><td><strong>Aspen 4.99% / Limestone 5.99% — LIKELY</strong></td><td><strong>$2,657</strong></td><td>$2,703</td><td><strong>Aspen by $46/mo</strong></td></tr>
+<tr><td>Both at market 6.66%</td><td>$3,082</td><td><strong>$2,870</strong></td><td>Limestone by <strong>$213/mo</strong></td></tr>
+</table>
+<p>Component detail (likely scenario): Aspen P&amp;I $2,145 + tax $151 + ins $217 + HOA $145. Limestone P&amp;I $2,281 + tax $156 + ins $217 + HOA $50.</p>
+<h3>The payment shock nobody mentions</h3>
+<p><img src="./chart-buydown.svg" alt="chart"></p>
+<table>
+<tr><th>Period</th><th>P&amp;I</th><th>All-in</th></tr>
+<tr><td>Year 1 @ 3.99%</td><td>$1,816</td><td>$2,238</td></tr>
+<tr><td>Year 2 @ 4.99%</td><td>$2,042</td><td>$2,464</td></tr>
+<tr><td><strong>Year 3–30 @ 5.99%</strong></td><td><strong>$2,281</strong></td><td><strong>$2,703</strong></td></tr>
+</table>
+<p><strong>+$465/mo permanent increase</strong> from year 1 to year 3. Budget from the year-3 number, not the teaser.</p>
+<h3>30-year total cost of ownership</h3>
+<table>
+<tr><th>Scenario</th><th>Aspen</th><th>Limestone</th><th>Δ</th></tr>
+<tr><td>Both 4.99%</td><td>$1,056,464</td><td>$982,345</td><td>Limestone saves $74,119</td></tr>
+<tr><td><strong>Aspen 4.99% / Lime 5.99%</strong></td><td><strong>$1,056,464</strong></td><td>$1,068,294</td><td><strong>Aspen saves $11,830</strong></td></tr>
+<tr><td>Both 6.66%</td><td>$1,209,689</td><td>$1,128,228</td><td>Limestone saves $81,461</td></tr>
+</table>
+<h3>Price per square foot — read this carefully</h3>
+<p><img src="./chart-psf.svg" alt="chart"></p>
+<p>Limestone is <strong>$174.87/sqft</strong> vs Aspen <strong>$227.46/sqft</strong>. Do not read that as a clean 30% discount, and do not read it as a warning either. Two separate things are going on:</p>
+<li><strong>Most of the headline gap is plan size, not a bargain signal.</strong> Larger two-story plans always price lower per foot. This compares a <strong>2,722 sqft</strong> home against a <strong>2,198 sqft</strong> one, which exaggerates the difference. Cades Bluff's own subdivision average is $224/sqft (closed sales, rolling 12 months to Apr 2026) against roughly <strong>$233–239/sqft</strong> across the six current Aspen Aly listings ($271 / $235 / $233 / $235 / $232 / $227) — and those are not even like-for-like, since closed sales lag current list in a rising market.</li>
+<li><strong>That few-percent subdivision-level gap is fully explained without invoking corridor risk.</strong> Benders Cove has a pool, dog park, playground and trails behind its $145/mo HOA; Cades Bluff has no amenities and charges $50/mo — amenity value capitalizes directly into price per foot. On top of that, Mount Juliet is a structurally more expensive submarket (median ~$249.75/sqft) because it is closer to Nashville. Nothing is left over that needs the Hwy 109 corridor to explain it.</li>
+<p><strong>Why that matters, and it is not good news.</strong> If the market were discounting Cades Bluff for the warehouse park and the adjacent apartments, the discount would appear <strong>subdivision-wide</strong>, because every lot there shares that exposure. It does not appear. So:</p>
+<blockquote>&gt; <strong>The two findings are separate, and both are true:</strong> the per-sqft value on 256 Limestone Way is <strong>genuine</strong> — it comes from plan size, not from the market warning you off. And the Hwy 109 corridor exposure appears to be <strong>unpriced</strong> — you would absorb the 546,000 sqft distribution center, the 254-unit apartment complex and the pending commercial rezonings <strong>without compensation</strong>.</blockquote>
+<p>Unpriced risk is precisely the kind that surfaces at <strong>resale</strong>, once the distribution center is operating and the next buyer runs the same search these agents did. Do not let the square-footage value convince you that you are being paid to take the corridor risk — you are not.</p>
+<h3>Taxes (Tennessee assesses at 25% of appraised value)</h3>
+<table>
+<tr><th></th><th>Aspen (Mt. Juliet)</th><th>Limestone (Lebanon)</th></tr>
+<tr><td>County rate</td><td>$1.1657/$100</td><td>$1.1657/$100</td></tr>
+<tr><td>City rate</td><td><strong>$0.28</strong></td><td><strong>$0.6855</strong> (or $0.405 certified — unresolved)</td></tr>
+<tr><td>Combined</td><td>$1.4457</td><td>$1.5707</td></tr>
+<tr><td>Est. annual</td><td><strong>~$1,807</strong></td><td><strong>~$1,869</strong></td></tr>
+</table>
+<p>Mt. Juliet's city rate is ~59% lower than Lebanon's, which <strong>partially offsets Aspen's higher price</strong>. If Limestone Way turns out to be *outside* Lebanon city limits, its tax drops to ~$1,387 — a <strong>$482/yr</strong> swing that is <strong>still unresolved</strong>.</p>
+<p>Also: Wilson County reappraised in 2026 with values up an average <strong>66%</strong>, and is moving from a 5-year to a <strong>3-year reappraisal cycle</strong>. For new construction, the assessor's value often lags a year — <strong>your first full-year bill can jump.</strong></p>
+<hr>
+<h2>6. Negotiating leverage — asymmetric, and it favors you at Limestone</h2>
+<p>Identical floor plans in the same subdivisions:</p>
+<table>
+<tr><th>Property</th><th>Same-plan comp</th><th>Read</th></tr>
+<tr><td><strong>Limestone (Bartlett, 2,722 sqft)</strong></td><td><strong>241 Limestone Way — $444,995, PENDING after a price cut</strong><br>251 Limestone Way — $489,995 (cut from $535,324)<br>259 Limestone Way — $501,865</td><td>Subject is <strong>$31,000 ABOVE a pending identical comp.</strong> Strong leverage.</td></tr>
+<tr><td><strong>Aspen (Palmetto, 2,198 sqft)</strong></td><td>317 Aspen Aly — $516,660</td><td>Subject is <strong>$16,710 BELOW its twin.</strong> Already keenly priced; less room.</td></tr>
+</table>
+<p><strong>This is the highest-value action in the whole analysis.</strong> Negotiate Limestone Way to the $444,995 comp and, even at 5.99%, its all-in drops to <strong>~$2,514/mo — beating Aspen by $143/mo</strong> and saving ~$28,670 of 30-year interest. The ask is evidenced, not arbitrary: an identical plan on the same street went pending at that number.</p>
+<p>Also unused: <strong>Cades Bluff is USDA-eligible (0% down)</strong>. Useful for cash preservation, but USDA adds a 1% upfront guarantee fee + 0.35%/yr — do not treat it as free.</p>
+<hr>
+<h2>7. Market context — neither is a short hold</h2>
+<p><img src="./chart-hist.svg" alt="chart"></p>
+<li>Wilson County median list price: <strong>$329,900 (2016) → $572,400 (2026)</strong> = <strong>+73.5%, ~5.7%/yr</strong>.</li>
+<li>But the <strong>rate-shock era compounded at only ~2.9%/yr</strong> (2022→2026), and the market is <strong>still ~2.6% below its July 2024 peak two years later</strong>.</li>
+<li><strong>Nashville is the nation's 2nd-strongest buyer's market — 129% more sellers than buyers.</strong> 17.7% of listings cut price (avg cut 3.4%); 13.1% of contracts cancelled.</li>
+<li><strong>Both subdivisions are still actively selling</strong>, so a resale competes head-on with a builder who can offer a 3.25% rate and $20k in options — incentives a private seller cannot match and which never appear in comparable sales. All 38 Cades Bluff closings were listed by the builder's own agent, so AVMs on that street are unreliable.</li>
+<p><strong>Underwrite a 7+ year hold.</strong> A 3–5 year exit is likely at or below purchase price after transaction costs.</p>
+<h2>Hazards (essentially equal)</h2>
+<li><strong>Flood: Zone X (minimal)</strong> for both — no mandated flood insurance. *Confirm per parcel; coordinates were approximate.*</li>
+<li><strong>Tornado: material and identical.</strong> 6.1 tornadoes/100 sq mi; a 2020 EF3 killed 3 in Wilson County. Expect <strong>percentage-of-dwelling</strong> wind/hail deductibles — check the quote.</li>
+<li><strong>Karst/sinkhole: under-appreciated.</strong> Lebanon and Ridley Limestone crop out in areas of intensive sinkhole development, and <strong>both homes are slab-on-grade</strong> — the configuration where subsidence is most expensive to fix. <strong>Request each builder's lot-specific geotechnical report and ask whether sinkhole collapse is covered or needs an endorsement.</strong></li>
+<hr>
+<h2>8. Verdict</h2>
+<pre class="dia">
+flowchart TD
+    S["Schools identical - not a factor&lt;br/>Rezoning risk symmetric - not a factor"] --> Q1{"Loan Estimate:&lt;br/>is Aspen's 4.99% PERMANENT?"}
+    Q1 -->|"No - both reset to ~6.66%"| L1["LIMESTONE&lt;br/>$213/mo cheaper, 524 sqft bigger"]
+    Q1 -->|"Yes"| Q2{"Can you negotiate Limestone&lt;br/>toward the $444,995 comp?"}
+    Q2 -->|"Yes"| L2["LIMESTONE&lt;br/>~$143/mo cheaper even at 5.99%&lt;br/>+ 5th bedroom + $95/mo lower HOA"]
+    Q2 -->|"No - stuck at $475,995"| Q3{"How much do you weigh&lt;br/>546k sqft of warehouse on Hwy 109&lt;br/>and a shorter commute?"}
+    Q3 -->|"A lot"| A1["ASPEN ALY&lt;br/>$46/mo cheaper, 11 mi closer,&lt;br/>lower land-use risk, appliances included"]
+    Q3 -->|"Not much"| L3["LIMESTONE&lt;br/>+524 sqft and a 5th bedroom&lt;br/>for ~$46/mo more"]
+</pre>
+<p><strong>If forced to pick today with the rate question unresolved: 256 Limestone Way, contingent on negotiating toward $445–455k.</strong> You get 524 more sqft, a 5th bedroom, and $95/mo less HOA for roughly the same money, and you hold documented leverage that Aspen Aly does not offer. What you take on is the Hwy 109 corridor — and note carefully that the market has <strong>not</strong> discounted Cades Bluff for it, so you are absorbing that exposure uncompensated. It is a real cost that shows up when you sell, not a rounding error.</p>
+<p><strong>Choose 324 Aspen Aly if</strong> its 4.99% is confirmed permanent *and* Limestone won't move off $475,995 — then it is genuinely $46/mo cheaper with a shorter commute, lower land-use risk, and ~$2,000–3,500 of appliances included.</p>
+<h3>Do these six things before signing</h3>
+<li><strong>Get a Loan Estimate from each builder's lender.</strong> Read the *note rate* and demand any Temporary Buydown Agreement addendum. On ~$470k, 4.99% vs 5.99% is ~$290/mo <strong>for the life of the loan</strong>. Nothing else in this report matters as much.</li>
+<li><strong>Make a written offer on Limestone Way at $444,995</strong>, citing 241 Limestone Way going pending at that price.</li>
+<li><strong>Confirm whether 256 Limestone Way is inside Lebanon city limits.</strong> Wilson County Assessor, 615-444-8661. Worth ~$482/yr.</li>
+<li><strong>Request the lot-specific geotechnical/soils report</strong> from both builders, and confirm sinkhole coverage with the insurer.</li>
+<li><strong>Ask both HOAs</strong> about a capital contribution at closing and whether the builder still controls the board (declarant control = dues increases after turnover).</li>
+<li><strong>Bind insurance quotes on both addresses from the same carrier</strong> for an apples-to-apples read, and check the wind/hail deductible structure.</li>
+<hr>
+<h3>Method and honesty notes</h3>
+<p>Four agents researched in parallel with a citation-or-<code>UNVERIFIED</code> rule. Peer review caught real errors: the Mount Juliet geography error was found independently by two agents; the school-assignment question was escalated to the district's own API after builder pages were shown to be stale; and two agents <strong>retracted their own conclusions</strong> mid-flight — one withdrew an "elementary favors Limestone" claim after being shown it rested on a pre-rezoning number, and flagged that the $/sqft headline overstates the gap. Where sources conflicted (Lebanon's city tax rate, the two prices for each home), both figures are reported rather than one being silently chosen.</p>
+<p><strong>Largest remaining unknowns:</strong> rate permanence, Limestone's city-limits status, the transactable price on both homes, and parcel-level flood/geotech confirmation.</p>
+</div></body></html>
