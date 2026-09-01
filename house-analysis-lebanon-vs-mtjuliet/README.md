@@ -59,6 +59,8 @@ The two homes sit **~2.9 miles apart on the same latitude**. The 37087 vs 37122 
 
 **Every proficiency score, growth measure, capacity ratio and rating is identical by construction, because it is the same three buildings.**
 
+![school capacity utilization](./chart-cap.svg)
+
 | | West Elementary | West Wilson Middle | Mt. Juliet High |
 |---|---|---|---|
 | Utilization | ~59% | **~92%** | 87% |
