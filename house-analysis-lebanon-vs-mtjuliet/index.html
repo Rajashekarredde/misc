@@ -1,28 +1,35 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>324 Aspen Aly vs 256 Limestone Way — Analysis</title><style>
+<title>324 Aspen Aly vs 256 Limestone Way — Analysis</title>
+<meta name="description" content="End-to-end comparison of two Wilson County TN new-construction homes: price, financing and buydown structure, schools, rezoning risk, land use, market and hazards.">
+<style>
 :root{--bg:#0d1117;--pn:#161b22;--bd:#30363d;--tx:#e6edf3;--mu:#8b949e;--ac:#58a6ff}
-*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--tx);
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);
 font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,sans-serif}
 .w{max-width:960px;margin:0 auto;padding:44px 22px 90px}
-h1{font-size:1.9rem;letter-spacing:-.02em;margin:0 0 6px}
-h2{font-size:1.35rem;margin:40px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--bd)}
-h3{font-size:1.05rem;margin:26px 0 8px} h4{color:var(--mu);margin:18px 0 6px}
-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.9rem}
-th,td{padding:8px 10px;border-bottom:1px solid var(--bd);text-align:left;vertical-align:top}
-th{color:var(--mu);font-size:.76rem;text-transform:uppercase;letter-spacing:.05em}
-code{background:#1f2430;padding:.1em .36em;border-radius:4px;font:13px ui-monospace,monospace}
-blockquote{border-left:3px solid var(--ac);background:#111823;margin:18px 0;padding:12px 18px;border-radius:0 6px 6px 0}
-img{width:100%;max-width:760px;display:block;margin:16px 0;background:var(--pn);
+h1{font-size:1.95rem;letter-spacing:-.02em;margin:0 0 8px}
+h2{font-size:1.35rem;margin:42px 0 12px;padding-bottom:8px;border-bottom:1px solid var(--bd)}
+h3{font-size:1.06rem;margin:28px 0 8px}
+h4{color:var(--mu);margin:18px 0 6px;font-size:.95rem}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.9rem;
+display:block;overflow-x:auto;white-space:nowrap}
+th,td{padding:8px 11px;border-bottom:1px solid var(--bd);text-align:left;vertical-align:top}
+th{color:var(--mu);font-size:.74rem;text-transform:uppercase;letter-spacing:.05em;white-space:nowrap}
+code{background:#1f2430;padding:.1em .36em;border-radius:4px;font:13px ui-monospace,SFMono-Regular,Menlo,monospace}
+blockquote{border-left:3px solid var(--ac);background:#111823;margin:18px 0;padding:13px 18px;
+border-radius:0 6px 6px 0}
+img{width:100%;max-width:780px;display:block;margin:18px 0;background:var(--pn);
 border:1px solid var(--bd);border-radius:8px}
-pre.dia{background:var(--pn);border:1px solid var(--bd);border-radius:8px;padding:14px;
-overflow-x:auto;color:var(--mu);font:12px ui-monospace,monospace;line-height:1.5}
-hr{border:0;border-top:1px solid var(--bd);margin:34px 0}
+pre.mermaid{background:var(--pn);border:1px solid var(--bd);border-radius:8px;
+padding:20px;margin:20px 0;overflow-x:auto;text-align:center;line-height:1}
+pre.mermaid:not([data-processed]){color:transparent;min-height:60px}
+pre.code{background:var(--pn);border:1px solid var(--bd);border-radius:8px;padding:14px;
+overflow-x:auto;color:var(--mu);font:12.5px ui-monospace,monospace}
+hr{border:0;border-top:1px solid var(--bd);margin:36px 0}
 a{color:var(--ac)} li{margin:4px 0} p{margin:10px 0}
-.note{background:#1a1214;border-left:3px solid #f85149;padding:12px 18px;border-radius:0 6px 6px 0;margin:18px 0}
+@media(max-width:640px){.w{padding:28px 14px 70px} h1{font-size:1.5rem}}
 </style></head><body><div class="w">
-<div class="note"><strong>Note:</strong> diagrams appear as source text here. View
-<code>README.md</code> on GitHub for rendered Mermaid diagrams.</div>
 <h1>324 Aspen Aly vs 256 Limestone Way — End-to-End Analysis</h1>
 <p>_Generated 2026-08-31. Research by four parallel agents (listings/comps, schools, rezoning, market/hazard). Every figure is sourced; confidence is labelled. See <a href="./data.json"><code>data.json</code></a> for machine-readable output and <a href="./SOURCES.md"><code>SOURCES.md</code></a> for the full source list._</p>
 <hr>
@@ -56,19 +63,17 @@ a{color:var(--ac)} li{margin:4px 0} p{margin:10px 0}
 <hr>
 <h2>2. Schools — zero difference, settled by primary source</h2>
 <p>The Schools agent bypassed builder marketing (which is routinely stale) and queried <strong>Wilson County Schools' own address-level attendance lookup</strong> (Transfinder InfoFinder i, district client ID <code>WCS5MDPRFWQV</code>). Both addresses returned <code>exactAddressMatch: true</code>, score 100.</p>
-<pre class="dia">
-flowchart TD
-    A["324 Aspen Aly&lt;br/>Mount Juliet 37122&lt;br/>36.2380, -86.4920"]
-    B["256 Limestone Way&lt;br/>Lebanon 37087&lt;br/>36.2388, -86.4396"]
-    A --> D["WILSON COUNTY SCHOOLS K-12&lt;br/>(NOT Lebanon Special School District)"]
-    B --> D
-    D --> E["West Elementary K-5&lt;br/>~59% utilized"]
-    E --> F["West Wilson Middle 6-8&lt;br/>~92% utilized ← pressure point"]
-    F --> G["Mt. Juliet High 9-12&lt;br/>87% vs 90% trigger"]
-</pre>
+<pre class="mermaid">flowchart TD
+    A["324 Aspen Aly&lt;br/&gt;Mount Juliet 37122&lt;br/&gt;36.2380, -86.4920"]
+    B["256 Limestone Way&lt;br/&gt;Lebanon 37087&lt;br/&gt;36.2388, -86.4396"]
+    A --&gt; D["WILSON COUNTY SCHOOLS K-12&lt;br/&gt;(NOT Lebanon Special School District)"]
+    B --&gt; D
+    D --&gt; E["West Elementary K-5&lt;br/&gt;~59% utilized"]
+    E --&gt; F["West Wilson Middle 6-8&lt;br/&gt;~92% utilized ← pressure point"]
+    F --&gt; G["Mt. Juliet High 9-12&lt;br/&gt;87% vs 90% trigger"]</pre>
 <p>The two homes sit <strong>~2.9 miles apart on the same latitude</strong>. The 37087 vs 37122 split is *postal, not jurisdictional* — the district's own address record even carries Limestone Way as 37122. Both have named district bus stops (Benders Ferry Rd &amp; Moss Creek Blvd; Limestone Way &amp; Emerald Blvd).</p>
 <p><strong>Every proficiency score, growth measure, capacity ratio and rating is identical by construction, because it is the same three buildings.</strong></p>
-<p><img src="./chart-cap.svg" alt="chart"></p>
+<p><img src="./chart-cap.svg" alt="school capacity utilization"></p>
 <table>
 <tr><th></th><th>West Elementary</th><th>West Wilson Middle</th><th>Mt. Juliet High</th></tr>
 <tr><td>Utilization</td><td>~59%</td><td><strong>~92%</strong></td><td>87%</td></tr>
@@ -82,15 +87,13 @@ flowchart TD
 <h2>3. School rezoning risk — real, but symmetric</h2>
 <p>Your instinct that rezoning is a live risk is <strong>correct</strong>. Your instinct that it distinguishes these two homes is <strong>not</strong>.</p>
 <p>Wilson County Schools has made <strong>four board-approved boundary changes in five years</strong> — roughly annual — and <strong>every new school opening has triggered one</strong>.</p>
-<pre class="dia">
-timeline
+<pre class="mermaid">timeline
     title Wilson County Schools boundary changes
     2020 : Green Hill HS opens - hundreds rezoned OUT of Mt. Juliet HS
     2022 : Gladeville Elementary to Rutland Elementary
     2023 : 107 students Rutland to Gladeville, 113 Gladeville to Southside
     2025 : LaGuardo Elementary opens - West Elem and West Wilson Middle affected
-    2026 : Central Pike Elementary opens - Gladeville, Rutland, Southside redrawn
-</pre>
+    2026 : Central Pike Elementary opens - Gladeville, Rutland, Southside redrawn</pre>
 <p><strong>Why it cannot favor either home:</strong> both share the identical triad, so no boundary change at West Elementary, West Wilson Middle, or Mt. Juliet High can hit one house and spare the other. WCS moves <strong>whole subdivisions together</strong> by stated policy.</p>
 <p><strong>Where the pressure actually is:</strong></p>
 <li><strong>West Wilson Middle ~92%</strong> — a post-tornado replacement building whose own district finance projection had it at 1,560 students against 1,500 core capacity, i.e. <strong>over capacity on opening</strong>. Leadership publicly called it "at capacity or near capacity" in Oct 2025.</li>
@@ -121,7 +124,7 @@ timeline
 </table>
 <p>Ashton Woods' *current* Cades Bluff banner is different again — "as low as 3.25% + $20k in design options" — so the 4.99% you were quoted may already be stale and beatable.</p>
 <h3>Monthly, all-in (20% down, incl. tax + insurance + HOA)</h3>
-<p><img src="./chart-monthly.svg" alt="chart"></p>
+<p><img src="./chart-monthly.svg" alt="monthly"></p>
 <table>
 <tr><th>Scenario</th><th>Aspen Aly</th><th>Limestone Way</th><th>Winner</th></tr>
 <tr><td>Both 4.99% (as you were told)</td><td>$2,657</td><td><strong>$2,464</strong></td><td>Limestone by <strong>$193/mo</strong></td></tr>
@@ -130,7 +133,7 @@ timeline
 </table>
 <p>Component detail (likely scenario): Aspen P&amp;I $2,145 + tax $151 + ins $217 + HOA $145. Limestone P&amp;I $2,281 + tax $156 + ins $217 + HOA $50.</p>
 <h3>The payment shock nobody mentions</h3>
-<p><img src="./chart-buydown.svg" alt="chart"></p>
+<p><img src="./chart-buydown.svg" alt="buydown"></p>
 <table>
 <tr><th>Period</th><th>P&amp;I</th><th>All-in</th></tr>
 <tr><td>Year 1 @ 3.99%</td><td>$1,816</td><td>$2,238</td></tr>
@@ -146,12 +149,12 @@ timeline
 <tr><td>Both 6.66%</td><td>$1,209,689</td><td>$1,128,228</td><td>Limestone saves $81,461</td></tr>
 </table>
 <h3>Price per square foot — read this carefully</h3>
-<p><img src="./chart-psf.svg" alt="chart"></p>
+<p><img src="./chart-psf.svg" alt="psf"></p>
 <p>Limestone is <strong>$174.87/sqft</strong> vs Aspen <strong>$227.46/sqft</strong>. Do not read that as a clean 30% discount, and do not read it as a warning either. Two separate things are going on:</p>
 <li><strong>Most of the headline gap is plan size, not a bargain signal.</strong> Larger two-story plans always price lower per foot. This compares a <strong>2,722 sqft</strong> home against a <strong>2,198 sqft</strong> one, which exaggerates the difference. Cades Bluff's own subdivision average is $224/sqft (closed sales, rolling 12 months to Apr 2026) against roughly <strong>$233–239/sqft</strong> across the six current Aspen Aly listings ($271 / $235 / $233 / $235 / $232 / $227) — and those are not even like-for-like, since closed sales lag current list in a rising market.</li>
 <li><strong>That few-percent subdivision-level gap is fully explained without invoking corridor risk.</strong> Benders Cove has a pool, dog park, playground and trails behind its $145/mo HOA; Cades Bluff has no amenities and charges $50/mo — amenity value capitalizes directly into price per foot. On top of that, Mount Juliet is a structurally more expensive submarket (median ~$249.75/sqft) because it is closer to Nashville. Nothing is left over that needs the Hwy 109 corridor to explain it.</li>
 <p><strong>Why that matters, and it is not good news.</strong> If the market were discounting Cades Bluff for the warehouse park and the adjacent apartments, the discount would appear <strong>subdivision-wide</strong>, because every lot there shares that exposure. It does not appear. So:</p>
-<blockquote>&gt; <strong>The two findings are separate, and both are true:</strong> the per-sqft value on 256 Limestone Way is <strong>genuine</strong> — it comes from plan size, not from the market warning you off. And the Hwy 109 corridor exposure appears to be <strong>unpriced</strong> — you would absorb the 546,000 sqft distribution center, the 254-unit apartment complex and the pending commercial rezonings <strong>without compensation</strong>.</blockquote>
+<blockquote><strong>The two findings are separate, and both are true:</strong> the per-sqft value on 256 Limestone Way is <strong>genuine</strong> — it comes from plan size, not from the market warning you off. And the Hwy 109 corridor exposure appears to be <strong>unpriced</strong> — you would absorb the 546,000 sqft distribution center, the 254-unit apartment complex and the pending commercial rezonings <strong>without compensation</strong>.</blockquote>
 <p>Unpriced risk is precisely the kind that surfaces at <strong>resale</strong>, once the distribution center is operating and the next buyer runs the same search these agents did. Do not let the square-footage value convince you that you are being paid to take the corridor risk — you are not.</p>
 <h3>Taxes (Tennessee assesses at 25% of appraised value)</h3>
 <table>
@@ -175,7 +178,7 @@ timeline
 <p>Also unused: <strong>Cades Bluff is USDA-eligible (0% down)</strong>. Useful for cash preservation, but USDA adds a 1% upfront guarantee fee + 0.35%/yr — do not treat it as free.</p>
 <hr>
 <h2>7. Market context — neither is a short hold</h2>
-<p><img src="./chart-hist.svg" alt="chart"></p>
+<p><img src="./chart-hist.svg" alt="hist"></p>
 <li>Wilson County median list price: <strong>$329,900 (2016) → $572,400 (2026)</strong> = <strong>+73.5%, ~5.7%/yr</strong>.</li>
 <li>But the <strong>rate-shock era compounded at only ~2.9%/yr</strong> (2022→2026), and the market is <strong>still ~2.6% below its July 2024 peak two years later</strong>.</li>
 <li><strong>Nashville is the nation's 2nd-strongest buyer's market — 129% more sellers than buyers.</strong> 17.7% of listings cut price (avg cut 3.4%); 13.1% of contracts cancelled.</li>
@@ -187,16 +190,14 @@ timeline
 <li><strong>Karst/sinkhole: under-appreciated.</strong> Lebanon and Ridley Limestone crop out in areas of intensive sinkhole development, and <strong>both homes are slab-on-grade</strong> — the configuration where subsidence is most expensive to fix. <strong>Request each builder's lot-specific geotechnical report and ask whether sinkhole collapse is covered or needs an endorsement.</strong></li>
 <hr>
 <h2>8. Verdict</h2>
-<pre class="dia">
-flowchart TD
-    S["Schools identical - not a factor&lt;br/>Rezoning risk symmetric - not a factor"] --> Q1{"Loan Estimate:&lt;br/>is Aspen's 4.99% PERMANENT?"}
-    Q1 -->|"No - both reset to ~6.66%"| L1["LIMESTONE&lt;br/>$213/mo cheaper, 524 sqft bigger"]
-    Q1 -->|"Yes"| Q2{"Can you negotiate Limestone&lt;br/>toward the $444,995 comp?"}
-    Q2 -->|"Yes"| L2["LIMESTONE&lt;br/>~$143/mo cheaper even at 5.99%&lt;br/>+ 5th bedroom + $95/mo lower HOA"]
-    Q2 -->|"No - stuck at $475,995"| Q3{"How much do you weigh&lt;br/>546k sqft of warehouse on Hwy 109&lt;br/>and a shorter commute?"}
-    Q3 -->|"A lot"| A1["ASPEN ALY&lt;br/>$46/mo cheaper, 11 mi closer,&lt;br/>lower land-use risk, appliances included"]
-    Q3 -->|"Not much"| L3["LIMESTONE&lt;br/>+524 sqft and a 5th bedroom&lt;br/>for ~$46/mo more"]
-</pre>
+<pre class="mermaid">flowchart TD
+    S["Schools identical - not a factor&lt;br/&gt;Rezoning risk symmetric - not a factor"] --&gt; Q1{"Loan Estimate:&lt;br/&gt;is Aspen's 4.99% PERMANENT?"}
+    Q1 --&gt;|"No - both reset to ~6.66%"| L1["LIMESTONE&lt;br/&gt;$213/mo cheaper, 524 sqft bigger"]
+    Q1 --&gt;|"Yes"| Q2{"Can you negotiate Limestone&lt;br/&gt;toward the $444,995 comp?"}
+    Q2 --&gt;|"Yes"| L2["LIMESTONE&lt;br/&gt;~$143/mo cheaper even at 5.99%&lt;br/&gt;+ 5th bedroom + $95/mo lower HOA"]
+    Q2 --&gt;|"No - stuck at $475,995"| Q3{"How much do you weigh&lt;br/&gt;546k sqft of warehouse on Hwy 109&lt;br/&gt;and a shorter commute?"}
+    Q3 --&gt;|"A lot"| A1["ASPEN ALY&lt;br/&gt;$46/mo cheaper, 11 mi closer,&lt;br/&gt;lower land-use risk, appliances included"]
+    Q3 --&gt;|"Not much"| L3["LIMESTONE&lt;br/&gt;+524 sqft and a 5th bedroom&lt;br/&gt;for ~$46/mo more"]</pre>
 <p><strong>If forced to pick today with the rate question unresolved: 256 Limestone Way, contingent on negotiating toward $445–455k.</strong> You get 524 more sqft, a 5th bedroom, and $95/mo less HOA for roughly the same money, and you hold documented leverage that Aspen Aly does not offer. What you take on is the Hwy 109 corridor — and note carefully that the market has <strong>not</strong> discounted Cades Bluff for it, so you are absorbing that exposure uncompensated. It is a real cost that shows up when you sell, not a rounding error.</p>
 <p><strong>Choose 324 Aspen Aly if</strong> its 4.99% is confirmed permanent *and* Limestone won't move off $475,995 — then it is genuinely $46/mo cheaper with a shorter commute, lower land-use risk, and ~$2,000–3,500 of appliances included.</p>
 <h3>Do these six things before signing</h3>
@@ -210,4 +211,19 @@ flowchart TD
 <h3>Method and honesty notes</h3>
 <p>Four agents researched in parallel with a citation-or-<code>UNVERIFIED</code> rule. Peer review caught real errors: the Mount Juliet geography error was found independently by two agents; the school-assignment question was escalated to the district's own API after builder pages were shown to be stale; and two agents <strong>retracted their own conclusions</strong> mid-flight — one withdrew an "elementary favors Limestone" claim after being shown it rested on a pre-rezoning number, and flagged that the $/sqft headline overstates the gap. Where sources conflicted (Lebanon's city tax rate, the two prices for each home), both figures are reported rather than one being silently chosen.</p>
 <p><strong>Largest remaining unknowns:</strong> rate permanence, Limestone's city-limits status, the transactable price on both homes, and parcel-level flood/geotech confirmation.</p>
-</div></body></html>
+</div>
+<script type="module">
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+mermaid.initialize({
+  startOnLoad: true,
+  theme: 'dark',
+  themeVariables: {
+    background: '#161b22', primaryColor: '#1f2937', primaryTextColor: '#e6edf3',
+    primaryBorderColor: '#58a6ff', lineColor: '#8b949e', secondaryColor: '#111823',
+    tertiaryColor: '#161b22', fontSize: '14px'
+  },
+  flowchart: { curve: 'basis', useMaxWidth: true },
+  timeline: { useMaxWidth: true }
+});
+</script>
+</body></html>
